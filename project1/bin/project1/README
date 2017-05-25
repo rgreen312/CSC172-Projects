@@ -1,0 +1,8 @@
+Author: Ryan Green
+Collaborators: Tyler Wilson and Sam Triest
+
+In this project, 
+
+The 7, 4 and 15, 11 Hamming codes work in very similar ways. As such, the helper methods encode and decode can be used for both. These two methods can take bit arrays of either 7 or 15 bits, and encode or decode them. In order to encode an array, for each parity bit, the method checks the bits covered by the parity, as detailed by the project description and Wikipedia page for Hamming codes. If the sum of the data contained in all the bits the parity checks is odd, the parity is set to a value of 1. If it is even, the parity is set to 0. When encoded properly, single bit errors within bytes can actually be corrected. To do this, the decode method checks whether the bits checked by each parity add up to an even number. If they don't then we know that there is an error somewhere in the string of bits. We add up the indices of the parity bits which give errors to get the bit that contains an error.  
+
+In order to read and write to files, I used the code provided to us by Professor Pawlicki. This gets all the data from a file as a byte array, and exports it in the same way. This allows us to get all the data at once, as well as write it all out at once. There are two additional methods I implemented, addParityBits and removeParityBits. The addParityBits method takes the original string and adds parity bits to it as needed. The removeparityBits method removes the parity bits from a string of bits after it has been decoded. 

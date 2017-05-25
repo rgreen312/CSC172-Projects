@@ -1,0 +1,10 @@
+Enter the input file name: 
+input1.txt
+Printing tree in order
+External nodes: 1
+External path length: 0
+Average path length: 0.0
+Points in same region
+Points in same region
+Points in same region
+Points in same region

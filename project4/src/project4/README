@@ -1,0 +1,16 @@
+Author: Ryan Green
+rgreen14@u.rochester.edu
+
+To run the program, there are command line parameter which affect the functionality of the program. The first argument is the text file to read in the data from. After that, the -show flag will make the map display, the -meridianmap tag will display a minimum weight spanning tree of the graph, and -directions followed by two intersection ids will get the shortest path between two points.
+
+Project Description
+For this project, I read in a series of interesections and roads, and store them in a graph. Once stored in the graph, they can be displayed in a graphical way, used to find the minimum weight spanning tree, and to find directions from one interection to another. In order to compute the shortest path between two intersections, the program implements Djikstra's algorithm. This algorithm finds the shortest path between a given intersection and every other vertex in the graph. This can then be used to print out the path, and display it on the map. When working with large data sets such as New York state, I had to ensure that the insert method for the graph, as well as the graphical aspects run efficiently so that the program can run in a reasonable amount of time.
+
+For the minimum weight spanning tree, I implemented Kruskal's algorithm. This sorts the edges by weight, and then adds all relevant ones in order of the lowest weight. This algorithm requires the use of indices on the vertices, so I implemented a tuple class to associate a vertex with a given integer. The minimum weight spanning tree gives the shortest path between all points in the graph.
+
+In terms of the GUI of the program, I implemented a scaling method that will always fill the window for the given set of data. The shortest path will display on top of the map in red when the directions aspect of the program is called. Likewise, the minimum spanning tree will display in cyan on top of the map when the meridian tag is used. 
+
+The runtime of this program will depend on which aspects are being used. Simply displaying the graph should run in O(e) time where e is the number of edges because each edge must be drawn. Drawing the minimum weight spanning tree will require O(eloge) time because that is the time required by Kruskal's algorithm. Finding the shortes path length will run in O(e + vlogv) time based on Dijkstra's algorithm.
+
+File Contents
+Graph.java contains the graph class, StreetMap.java contains the main method, Edge.java, Vertex.java, and Tuple.java contain the helper classes used by the graph class.

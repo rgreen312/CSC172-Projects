@@ -1,0 +1,8 @@
+Author: Ryan Green
+CSC 172 Project 2
+
+Postfix Calculator
+For this project, I had to create a postfix calculator that takes a mathematical expression in the form of a string and compute the value of the expression using the Shunting-Yard algorithm. In order to do this, the string is broken down into its individual operands and operators and then following the algorithm, these are rearranged to be in a postfix queue. This queue can then be used to calculate the result of the expression by moving operands to a stack and then popping them when an operand is found. For the extra credit portion of this assignment, I implemented the ability of my program to calculate basic trig functions, exponents, and modulous functions. Implementing this was similar to implementing the rest of the project, simply requiring the addition of additional switch statements. 
+
+Files contained:
+In order to implement the Shunting-yard algorithm, stack and queue data structures must be implemented. We have previously created classes implementing these structures in lab, so I copied all of the files from these labs over to the project folder. These data structures also required the code we wrote to implement linked lists and doubly linked lists, so I copied those files over as well. Infix.java contains all of the new code written for the purposes of this project. OUTPUT contains a sample run of the program and the output from the command line. infix_expressions.txt contains test cases I used to ensure the program works, and output.txt contains the answers to these expressions as calculated by infix.java.

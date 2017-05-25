@@ -1,0 +1,115 @@
+Enter the input file name: 
+input6.txt
+Printing tree in order
+0.87 0.0   0.0 0.6
+1.0 0.14   0.45 1.0
+1.0 0.53   0.0 0.2
+0.87 0.0   0.0 0.6
+0.6 1.0   0.0 0.99
+1.0 0.14   0.45 1.0
+0.6 1.0   0.0 0.99
+0.0 0.47   0.8 0.0
+1.0 0.53   0.0 0.2
+External nodes: 10
+External path length: 38
+Average path length: 3.8
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Separated by line: 1.0 0.14   0.45 1.0
+Points in same region
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Separated by line: 1.0 0.14   0.45 1.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.87 0.0   0.0 0.6
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Points in same region
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Points in same region
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 0.0 0.47   0.8 0.0
+Separated by line: 1.0 0.53   0.0 0.2
+Points in same region
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.87 0.0   0.0 0.6
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 1.0 0.14   0.45 1.0
+Separated by line: 0.0 0.47   0.8 0.0

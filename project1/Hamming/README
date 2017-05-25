@@ -1,0 +1,24 @@
+				PROJECT01 Sample Input/Output Files
+
+I have generated some sample input and output files for Hamming Codes project.
+
+sample.txt		A file contains the sample byte 1011 0001.
+
+sample_7_4.txt		The Hamming (7,4) encoded file for sample.txt. It has two bytes: 0011 0011 and 0110 1001.
+			These two bytes are given in the project description.
+
+sample_15_11.txt	The Hamming (15,11) encoded file for sample.txt. It has two bytes: 0100 0001 and 1011 0001.
+			We add three leading 0s to 1011 0001 and encode 000 1011 0001 using Hamming (15, 11).
+
+wiki.txt		A file contains the first paragraph of the wiki page.
+
+wiki_7_4.txt		The Hamming (7,4) encoded file for wiki.txt.
+			After calling Hamming.encode_7_4("wiki.txt", "encode.txt"), your program should generate encode.txt, which has the same contents with wiki_7_4.txt
+			After calling Hamming.decode_7_4("wiki_7_4.txt, "decode.txt"), your program should generate decode.txt, which has the same contents with wiki.txt
+
+wiki_15_11.txt		The Hamming (15,11) encoded file for wiki.txt.
+
+wiki_7_4_flip.txt	The Hamming (7,4) encoded file for wiki.txt. Some bits are fliped in this file.
+			After calling Hamming.decode_7_4("wiki_7_4_flip.txt, "decode.txt"), your program should generate decode.txt, which has the same contents with wiki.txt
+
+wiki_15_11_flip.txt	The Hamming (15,11) encoded file for wiki.txt. Some bits are fliped in this file.
